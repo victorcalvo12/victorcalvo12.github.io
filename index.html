@@ -15,6 +15,21 @@
                 background-attachment: fixed;
                 background-size:  cover;
             }
+            @media only screen and (max-width:2560px) {
+                .hero {
+                    background-image: url('img/hero-2560.jpg') !important;
+                }
+            }
+            @media only screen and (max-width:1920px) {
+                .hero {
+                    background-image: url('img/hero-1920.jpg') !important;
+                }
+            } 
+            @media only screen and (max-width:1365px) {
+                .hero {
+                    background-image: url('img/hero-1365.jpg') !important;
+                }
+            }
         </style>
     </head>
     <body class="dark">
@@ -38,21 +53,6 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="tile columns">
-                            <article class="message">
-                                <div class="message-header">
-                                    
-                                <p>Hello World</p>
-                                </div>
-                                <div class="message-body">
-                                        <p>function <strong>About()</strong> {</p>
-                                        <p>return "Dedicated and goal-oriented individual with experience developing for multiple platforms.
-                                                Seeking new opportunities where I can challenge myself and continue to grow as a software
-                                                developer.";</p>
-                                        <p>}</p>
-                                </div>
-                            </article>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                             <span class="tag is-black">HTML/CSS</span>
                             <span class="tag is-black">Javascript</span>
                             <span class="tag is-black">Coldfusion</span>
-                            <span class="tag is-black">SQL</span>
+                            <span class="tag is-black">MS SQL</span>
                         </p>
                     </div>
                     <div class="column">
@@ -86,7 +86,7 @@
         <section class="section">
             <div class="container">
                 <div class="columns">
-                    <div class="column columns">
+                    <div class="column columns is-mobile">
                         <div class="column">
                             <img src="./img/modinv_android.png">
                         </div>
@@ -115,7 +115,7 @@
                     <div class="column is-two-thirds">
                         <h1 class="title">Google Messages Desktop Client</h1>
                         <h2 class="subtitle">
-                            Google Messages is a SMS texting app for android phones. It also gives users to send and receive there messages from a browser.
+                                Google Messages is a SMS texting app for android phones. It also gives users the ability to send and receive their messages from a browser.
                         </h2>
                         <p>
                             This is an unofficial desktop client for the Messages browser application.
